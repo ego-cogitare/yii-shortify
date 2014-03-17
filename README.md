@@ -1,16 +1,16 @@
-# Yii Loggly
+# Yii shortify
 
-This module is a log writer for [Yii](http://www.yiiframework.com/) that will send all log messages to a [Loggly](http://loggly.com/) input.
+This component will shorten a string to a shorter string. Can also expand the shorter string back to the full string.
 
 ### Requirements
 
  - php >= 5.2
- - php5-curl extension
- - Yii 1.1.13 (should work on prior versions but not tested)
 
 ### Usage
 
 Install using composer ( https://packagist.org/packages/opus-online/yii-shortify )
+
+### Setting up for Yii v1:
 
 At the head of protected/config/main.php add:
 
