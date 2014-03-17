@@ -1,0 +1,21 @@
+{
+    "name": "opus-online/yii-shortify",
+    "description": "Yii shortify hashes a string into a smaller string",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peeter Tomberg",
+            "email": "peeter.tomberg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OpusOnline\\Shortify\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "predis/predis": "0.8.5"
+    }
+}
